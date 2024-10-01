@@ -1,0 +1,12 @@
+.Contenedor {
+    background-image: url(https://img.freepik.com/vector-premium/fondo-abstracto-rojo-amarillo-azul-diseno-plantilla-dia-independencia-armenia_96777-679.jpg);
+    font-size: 30px;
+}
+.Container {
+    display: flex;
+    justify-content: center;
+}
+.serieA1 {
+    display: flex;
+    justify-content: center;
+}
