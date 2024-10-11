@@ -1,0 +1,194 @@
+*{
+    margin: 16px;
+}
+html{
+    font-size: 16px;
+}
+
+/*Voy a usar mediasquery para hacer adaptable la letra a un dispositivo diferente*/
+@media screen and(max-width:400px) {
+    html {
+        font-size: 9.411764705882353px;
+    }
+}
+
+.menu{
+    /*Interlineado del menú*/
+    line-height: 0.6;
+}
+/*Estilos a los links*/
+a{
+    color:crimson;
+    /*Transición y tiempo de transición*/
+    transition: all 0.3s ease-in-out;
+}
+/*Al poner el mouse se hace de color negro*/
+a:hover,
+/*Le da un brillo*/
+a:focus,
+/*Activa la transición*/
+a:active {
+    color: yellow;
+}
+
+html,
+body {
+    height: 100%;
+    background: url(https://png.pngtree.com/thumb_back/fw800/background/20230721/pngtree-desolate-soccer-arena-in-the-evening-depicted-in-3d-image_3869215.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    line-height: 1.882;
+    color: aliceblue;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Encabezado {
+    background-image: url(https://img.freepik.com/vector-premium/fondo-abstracto-rojo-amarillo-azul-diseno-plantilla-dia-independencia-armenia_96777-679.jpg);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fechapublicacion{
+    text-align: right;
+}
+.subtittle{
+    color: red;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.imginicio {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitulo2{
+    text-align: center; 
+    border: 1px solid; 
+    border-color:gold; 
+    background-color:gold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.subtitulo3{
+    text-align: center; 
+    border: 1px solid; 
+    border-color:blue; 
+    background-color:blue; 
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.seriequiA{
+    text-align: center;
+    font-size: 1.2rem;
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.seriea{
+    text-align: center;
+}
+.seriequiB{
+    text-align: center;
+    font-size: 1.2rem;
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.large-img{
+    width: 60px;
+    height: auto;
+}
+.tablaps{
+    text-align: center; 
+    border: 1px solid; 
+    border-color:red; 
+    background-color:red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tablaps1{
+    color: red;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titulofase1{
+    text-align: center;
+    font-size: 1.2rem;
+    color: ivory;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.tabla1, th, td{
+    margin: auto;
+    border: 1px solid #ccc;
+    /*Para que se fucionen en un solo borde*/
+    border-collapse: collapse;
+}
+.titulofase2{
+    text-align: center;
+    font-size: 1.2rem;
+    color: ivory;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tabla2, th, td{
+    margin: auto;
+    border: 1px solid #ccc;
+    /*Para que se fucionen en un solo borde*/
+    border-collapse: collapse;
+}
+tbody{
+    text-align: center;
+}
+.calendario1{
+    text-align: center; 
+    border: 1px solid; 
+    border-color: aqua; 
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.encabserie-A{
+    width: 1230px;
+    height: auto;
+    display: block;
+    margin: 4;
+    justify-content: center;
+}
+.calenserieA{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.encabserie-B{
+    width: 1230px;
+    height: auto;
+    display: block;
+    margin: 4   ;
+    justify-content: center;
+}
+.calenserieB{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.estadistica{
+    text-align: center; 
+    border: 1px solid; 
+    border-color:hotpink; 
+    background-color:hotpink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+.pagof{
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
